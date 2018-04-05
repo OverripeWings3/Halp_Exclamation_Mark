@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityLogin" />
-        <activity android:name=".ActivityMain"></activity>
+        <activity android:name=".ActivityMain" />
+        <activity android:name=".beans.ActivityClases"></activity>
     </application>
 
 </manifest>
