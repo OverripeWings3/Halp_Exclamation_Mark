@@ -4,32 +4,32 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/menu_home"
-            android:icon=""
+            android:icon="@android:drawable/ic_menu_add"
             android:title="" />
         <item
             android:id="@+id/menu_class_schedule"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/gallery" />
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/Agenda" />
         <item
             android:id="@+id/menu_calendar"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/slideshow" />
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/Calendar" />
         <item
             android:id="@+id/menu_assignments"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/tools" />
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="@string/Assignments" />
         <item
             android:id="@+id/menu_reminders"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/slideshow" />
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/Reminders" />
         <item
             android:id="@+id/menu_flash_card_study"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/tools" />
+            android:icon="@drawable/ic_menu_flash"
+            android:title="@string/FlashCard" />
         <item
             android:id="@+id/menu_settings"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/tools" />
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/Settings" />
     </group>
 
 </menu>

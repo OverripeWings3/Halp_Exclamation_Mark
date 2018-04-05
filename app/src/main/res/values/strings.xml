@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">Halp!</string>
+    <string name="Home">Home</string>
+    <string name="Agenda">Agenda</string>
+    <string name="Calendar">Calendar</string>
+    <string name="Assignments">Assignments</string>
+    <string name="Reminders">Reminders</string>
+    <string name="FlashCard">FlashCard</string>
+    <string name="Settings">Settings</string>
+    <string name="action_sign_in_short">password</string>
     <string name="classesTitle">Classes</string>
     <string name="hoursTitle">Hours</string>
     <string name="Math">Math</string>
