@@ -3,4 +3,5 @@
     <color name="colorPrimary">#FF9000</color>
     <color name="colorPrimaryDark">#FF6600</color>
     <color name="colorAccent">#3366FF</color>
+    <color name="colorTabBar">#FF909090</color>
 </resources>

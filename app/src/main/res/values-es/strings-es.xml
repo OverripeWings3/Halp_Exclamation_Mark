@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inicio</string>
+    <string name="classesTitle">Clases</string>
+    <string name="hoursTitle">Horas</string>
+    <string name="Math">Matemáticas</string>
+    <string name="PDM">PDM</string>
+    <string name="NineAM">9:00 AM</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+</resources>

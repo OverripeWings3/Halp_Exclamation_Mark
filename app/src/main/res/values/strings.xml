@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Home</string>
+    <string name="app_name">Halp!</string>
+    <string name="classesTitle">Classes</string>
+    <string name="hoursTitle">Hours</string>
+    <string name="Math">Math</string>
+    <string name="PDM">Mobile Devices Programming</string>
+    <string name="NineAM">9:00 AM</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+
 </resources>
