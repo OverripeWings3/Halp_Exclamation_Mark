@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Halp!</string>
+    <string name="tip">Having regular 5 min breaks every hour helps with the productivity!</string>
+    <string name="Greeting">How can we help you today?</string>
     <string name="Home">Home</string>
     <string name="Agenda">Agenda</string>
     <string name="Calendar">Calendar</string>

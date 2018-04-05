@@ -3,7 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="table_padding">3dp</dimen>
-    <dimen name="header_home">10sp</dimen>
-    <dimen name="content_home">20sp</dimen>
+    <dimen name="tables_pad">10dp</dimen>
+    <dimen name="header_home">25sp</dimen>
+    <dimen name="content_home">18sp</dimen>
 
 </resources>

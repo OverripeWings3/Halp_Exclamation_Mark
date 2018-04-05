@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AIUDA!</string>
+    <string name="tip">¡Tomar un descanso de 5 minutos cada hora ayuda a la productividad!</string>
+    <string name="Greeting">¿En qué le podemos ayudar hoy?</string>
     <string name="Home">Inicio</string>
     <string name="Calendar">Calendario</string>
     <string name="Assignments">Tareas</string>
