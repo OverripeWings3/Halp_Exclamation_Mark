@@ -10,8 +10,6 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import com.iteso.is699367.halp_exclamation_mark.beans.ActivityClases;
-
 public class ActivityMain extends AppCompatActivity {
 
     Toolbar toolbar;
@@ -40,6 +38,8 @@ public class ActivityMain extends AppCompatActivity {
                         // Add code here to update the UI based on the item selected
                         // For example, swap UI fragments here
                         switch(menuItem.getItemId()) {
+                            case R.id.menu_home:
+                                break;
                             case R.id.menu_class_schedule:
                                 intent = new Intent(ActivityMain.this, ActivityClases.class);
                                 startActivity(intent);

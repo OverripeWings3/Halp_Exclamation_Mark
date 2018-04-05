@@ -1,5 +1,6 @@
-package com.iteso.is699367.halp_exclamation_mark.beans;
+package com.iteso.is699367.halp_exclamation_mark;
 
+import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -16,6 +17,7 @@ public class ActivityClases extends AppCompatActivity {
 
     Toolbar toolbar;
     private DrawerLayout mDrawerLayout;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,17 @@ public class ActivityClases extends AppCompatActivity {
 
                         // Add code here to update the UI based on the item selected
                         // For example, swap UI fragments here
+                        switch(menuItem.getItemId()) {
+                            case R.id.menu_home:
+                                intent = new Intent(ActivityClases.this, ActivityMain.class);
+                                startActivity(intent);
+                                finish();
+                                break;
+                            case R.id.menu_class_schedule:
+
+                                break;
+
+                        }
                         return true;
                     }
                 });
