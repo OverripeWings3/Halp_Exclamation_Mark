@@ -43,7 +43,6 @@ public class ActivityClases extends AppCompatActivity {
                             case R.id.menu_home:
                                 intent = new Intent(ActivityClases.this, ActivityMain.class);
                                 startActivity(intent);
-                                finish();
                                 break;
                             case R.id.menu_class_schedule:
 
