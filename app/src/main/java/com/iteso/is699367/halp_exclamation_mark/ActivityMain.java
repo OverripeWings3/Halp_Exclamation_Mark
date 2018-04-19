@@ -7,14 +7,17 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
 
 public class ActivityMain extends AppCompatActivity {
 
     Toolbar toolbar;
     private DrawerLayout mDrawerLayout;
     Intent intent;
+    CardView tablaClases;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,7 @@ public class ActivityMain extends AppCompatActivity {
 
         toolbar = findViewById(R.id.activity_main_toolbar);
         mDrawerLayout = findViewById(R.id.activity_main_drawer_layout);
+        tablaClases = findViewById(R.id.activity_main_tabla_clase);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(
@@ -42,13 +46,21 @@ public class ActivityMain extends AppCompatActivity {
                                 break;
                             case R.id.menu_class_schedule:
                                 intent = new Intent(ActivityMain.this, ActivityClases.class);
-                                startActivity(intent);
-                                finish();
                                 break;
                         }
+                        startActivity(intent);
                         return true;
                     }
                 });
+
+        tablaClases.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(ActivityMain.this, ActivityClases.class);
+                startActivity(intent);
+            }
+        });
+
         setSupportActionBar(toolbar);
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayHomeAsUpEnabled(true);
